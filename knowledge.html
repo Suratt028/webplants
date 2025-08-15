@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คลังความรู้เรื่องพืช</title>
+    <!-- ควรเปลี่ยนชื่อไฟล์ CSS เป็นชื่อที่ตรงกัน เช่น knowledge.css -->
+    <link rel="stylesheet" href="knowledge.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main class="category-container">
+        
+        <!-- ===== ส่วนหัวและลิงก์ย้อนกลับ (เพิ่มเข้ามาใหม่) ===== -->
+        <header class="page-header">
+            <!-- ลิงก์ย้อนกลับไปหน้าแรก (สมมติว่าชื่อไฟล์คือ index.html) -->
+            <a href="homepage.html" class="back-link">‹ กลับหน้าหลัก</a>
+            <h1 class="main-title">คลังความรู้</h1>
+        </header>
+
+        <!-- หมวดที่ 1: พืชผักสวนครัว -->
+        <a href="vegetables.html" class="category-card" style="background-image: url('image/kno01.avif');">
+            <div class="card-content">
+                <h2>พืชผัก<br>สวนครัว</h2>
+            </div>
+        </a>
+
+        <!-- หมวดที่ 2: ไม้ดอกไม้ประดับ -->
+        <a href="flowers.html" class="category-card" style="background-image: url('image/kno02.avif');">
+            <div class="card-content">
+                <h2>ไม้ดอกไม้ประดับ</h2>
+            </div>
+        </a>
+
+        <!-- หมวดที่ 3: ไม้ผล -->
+        <a href="fruits.html" class="category-card" style="background-image: url('image/kno0003.jpg');">
+            <div class="card-content">
+                <h2>ไม้ผล</h2>
+            </div>
+        </a>
+
+        <!-- หมวดที่ 4: สมุนไพร -->
+        <a href="herbs.html" class="category-card" style="background-image: url('image/kno04.jpg');">
+            <div class="card-content">
+                <h2>
+                    สมุนไพร
+                    <span class="herb-icon">
+                        <svg viewBox="0 0 100 100"><path d="M50 82 C 40 65, 70 55, 60 40" stroke="currentColor" stroke-width="8" fill="none" stroke-linecap="round" /><path d="M60 40 C 80 30, 100 40, 90 60 C 80 50, 70 45, 60 40 Z" fill="currentColor" /><path d="M60 40 C 50 20, 20 25, 30 45 C 40 40, 50 40, 60 40 Z" fill="currentColor" /></svg>
+                    </span>
+                </h2>
+            </div>
+        </a>
+
+    </main>
+
+</body>
+</html>
